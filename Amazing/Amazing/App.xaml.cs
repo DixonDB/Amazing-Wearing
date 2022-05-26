@@ -3,6 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Amazing.Vistas.MenuPrincipal;
 
+
 namespace Amazing
 {
     public partial class App : Application
@@ -12,6 +13,7 @@ namespace Amazing
             InitializeComponent();
 
             MainPage = new Principal();
+            //MainPage = new NavigationPage(new Principal());
         }
 
         protected override void OnStart()

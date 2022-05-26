@@ -652,3 +652,4 @@ C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing.Android\obj\Debug\120\lp\99\
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing.Android\obj\Debug\120\lp\100\jl\files.cache
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing.Android\obj\Debug\120\res\drawable\menu.png
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing.Android\obj\Debug\120\res\drawable\user.png
+C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing.Android\obj\Debug\120\res\drawable\imagen.png

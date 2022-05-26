@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amazing.Vistas.CRUD.AgregarProductos"
+             BackgroundColor="#F7F7F7"
+             Title="Agregar un nuevo producto"
+             Visual="Material">
+    <ContentPage.Content>
+        <StackLayout >
+            <Grid Margin="0,40,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                
+                <Label Text="Datos"
+                   FontAttributes="Bold"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="25"
+                   TextColor="Black"
+                   Margin="0,30,0,30"/>
+
+                <Frame CornerRadius="40"                   
+                   HasShadow="False"
+                   BackgroundColor="#F7F7F7"
+                   Grid.Row="0" Grid.Column="0"
+                   Padding="10">
+                    <Entry Placeholder="Nombre del Producto" 
+                       HorizontalOptions="FillAndExpand"
+                       PlaceholderColor="#D1D4DF"
+                       BackgroundColor="#F7F7F7"/>
+                </Frame>
+
+                <Frame CornerRadius="40"
+                   BackgroundColor="#F7F7F7"
+                   Grid.Row="1" Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   HasShadow="False"
+                   Padding="10">
+                    <Entry Placeholder="Descripcion" 
+                       BackgroundColor="#F7F7F7"
+                       HorizontalOptions="FillAndExpand"
+                       PlaceholderColor="#D1D4DF"/>
+                </Frame>
+                
+                <Frame CornerRadius="40"
+                   BackgroundColor="#F7F7F7"
+                   HasShadow="False"                   
+                       Grid.Row="0" Grid.Column="1"
+                   Padding="10">
+                    <Entry Placeholder="Precio" 
+                       BackgroundColor="#F7F7F7"
+                       HorizontalOptions="FillAndExpand"
+                       Keyboard="Numeric" PlaceholderColor="#D1D4DF"/>
+                </Frame>
+                
+                <Button Text="Cargar Imagen"
+                    Grid.Row="3" Grid.Column="0"
+                    CornerRadius="30"
+                    BackgroundColor="Green" x:Name="btnCargarImagen"
+                    Clicked="btnCargarImagen_Clicked"/>
+                
+                <Button Text="Guardar"
+                    Grid.Row="3" Grid.Column="1"
+                    CornerRadius="30"
+                    BackgroundColor="Blue"/>
+                
+                <Frame CornerRadius="20"                
+                   Grid.Row="2" 
+                   Grid.Column="0"
+                   BackgroundColor="#F7F7F7">
+                    <Image Source="imagen"
+                   HeightRequest="50" 
+                   x:Name="imagen"/>
+                </Frame>
+
+            </Grid>
+        </StackLayout>       
+    </ContentPage.Content>
+</ContentPage>

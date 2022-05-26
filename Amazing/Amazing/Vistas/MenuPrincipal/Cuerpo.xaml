@@ -11,7 +11,7 @@
                 <Label Text="{Binding Nombre}" 
                        FontAttributes="Bold"
                        FontSize="20"
-                       HorizontalOptions="Center"
+                       HorizontalOptions="CenterAndExpand"
                        TextColor="Black"/>
                 
                 <Label Text="{Binding Descripcion}" 

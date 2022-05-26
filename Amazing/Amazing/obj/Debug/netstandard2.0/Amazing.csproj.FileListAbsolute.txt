@@ -4,7 +4,6 @@ C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing\bin\Debug\netstandard2.0\Ama
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Amazing.csproj.AssemblyReference.cache
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Amazing.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Amazing.AssemblyInfoInputs.cache
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Amazing.AssemblyInfo.cs
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Amazing.csproj.CoreCompileInputs.cache
@@ -17,3 +16,4 @@ C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vis
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\MenuPrincipal\Encabezado.xaml.g.cs
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\MenuPrincipal\PiePagina.xaml.g.cs
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\MenuPrincipal\Principal.xaml.g.cs
+C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\CRUD\AgregarProductos.xaml.g.cs
