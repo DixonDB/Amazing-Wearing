@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using SQLite;
 using Amazing.VistaModelo;
 
 namespace Amazing.Modelo
 {
     public class MCategorias : VMBase
     {
+        [PrimaryKey, AutoIncrement]
+        public int IdCategoria { get; set; }
         public string Categoria { get; set; }
         public string Imagen { get; set; }
 

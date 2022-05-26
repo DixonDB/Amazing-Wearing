@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Amazing.Vistas.MenuPrincipal;
+using Amazing.Vistas.CRUD;
 
 
 namespace Amazing
@@ -12,7 +13,7 @@ namespace Amazing
         {
             InitializeComponent();
 
-            MainPage = new Principal();
+            MainPage = new AgregarProductos();
             //MainPage = new NavigationPage(new Principal());
         }
 

@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+xmlns:VistaModelo="clr-namespace:Amazing.VistaModelo"
              x:Class="Amazing.Vistas.CRUD.AgregarProductos"
              BackgroundColor="#F7F7F7"
              Title="Agregar un nuevo producto"
              Visual="Material">
+    <ContentPage.BindingContext>
+        <VistaModelo:ModelProductos/>
+    </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout >
             <Grid Margin="0,40,0,0">
@@ -31,7 +35,8 @@
                    BackgroundColor="#F7F7F7"
                    Grid.Row="0" Grid.Column="0"
                    Padding="10">
-                    <Entry Placeholder="Nombre del Producto" 
+                    <Entry Text="{Binding productos.Nombre}" 
+                           Placeholder="Nombre"
                        HorizontalOptions="FillAndExpand"
                        PlaceholderColor="#D1D4DF"
                        BackgroundColor="#F7F7F7"/>
@@ -43,7 +48,8 @@
                    Grid.ColumnSpan="2"
                    HasShadow="False"
                    Padding="10">
-                    <Entry Placeholder="Descripcion" 
+                    <Entry Text="{Binding productos.Descripcion}"
+                           Placeholder="Descripcion"
                        BackgroundColor="#F7F7F7"
                        HorizontalOptions="FillAndExpand"
                        PlaceholderColor="#D1D4DF"/>
@@ -54,31 +60,30 @@
                    HasShadow="False"                   
                        Grid.Row="0" Grid.Column="1"
                    Padding="10">
-                    <Entry Placeholder="Precio" 
-                       BackgroundColor="#F7F7F7"
-                       HorizontalOptions="FillAndExpand"
-                       Keyboard="Numeric" PlaceholderColor="#D1D4DF"/>
+                    <Entry Text="{Binding productos.Precio}"
+                           Placeholder="Precio"
+                           BackgroundColor="#F7F7F7"
+                           HorizontalOptions="FillAndExpand"
+                           Keyboard="Numeric" PlaceholderColor="#D1D4DF"/>
                 </Frame>
-                
-                <Button Text="Cargar Imagen"
-                    Grid.Row="3" Grid.Column="0"
-                    CornerRadius="30"
-                    BackgroundColor="Green" x:Name="btnCargarImagen"
-                    Clicked="btnCargarImagen_Clicked"/>
-                
+                <Frame CornerRadius="40"
+                   BackgroundColor="#F7F7F7"
+                       HasShadow="False"
+                       Grid.ColumnSpan="2"
+                       Grid.Row="2" Grid.Column="0"
+                   Padding="10">
+                    <Entry Text="{Binding productos.Imagen}"
+                           Placeholder="URL de la imagen"
+                           BackgroundColor="#F7F7F7"
+                           HorizontalOptions="FillAndExpand"
+                           PlaceholderColor="#D1D4DF"/>
+                </Frame>
+
                 <Button Text="Guardar"
                     Grid.Row="3" Grid.Column="1"
                     CornerRadius="30"
-                    BackgroundColor="Blue"/>
-                
-                <Frame CornerRadius="20"                
-                   Grid.Row="2" 
-                   Grid.Column="0"
-                   BackgroundColor="#F7F7F7">
-                    <Image Source="imagen"
-                   HeightRequest="50" 
-                   x:Name="imagen"/>
-                </Frame>
+                    BackgroundColor="Blue"
+                        Command="{Binding InsertarProducto}"/>
 
             </Grid>
         </StackLayout>       
