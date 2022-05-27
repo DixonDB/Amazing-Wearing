@@ -674,3 +674,4 @@ C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing.Android\obj\Debug\120\androi
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing.Android\obj\Debug\120\android\assets\WeakEvent.pdb
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing.Android\obj\Debug\120\android\src\crc64994682affb61faca\AndroidShadowsRenderer.java
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing.Android\obj\Debug\120\android\src\crc64994682affb61faca\ShadowView.java
+C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing.Android\obj\Debug\120\res\drawable\img.png
