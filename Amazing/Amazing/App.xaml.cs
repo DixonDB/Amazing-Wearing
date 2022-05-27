@@ -3,6 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Amazing.Vistas.MenuPrincipal;
 using Amazing.Vistas.CRUD;
+using Amazing.Vistas.Detalle;
 
 
 namespace Amazing
@@ -13,7 +14,8 @@ namespace Amazing
         {
             InitializeComponent();
 
-            MainPage = new AgregarProductos();
+            //MainPage = new AgregarProductos();
+            MainPage = new DetalleProducto();
             //MainPage = new NavigationPage(new Principal());
         }
 

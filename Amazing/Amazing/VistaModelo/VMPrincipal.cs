@@ -1,5 +1,6 @@
 ﻿using Amazing.Datos;
 using Amazing.Modelo;
+using Amazing.RepoDB;
 using Amazing.VistaModelo;
 using System;
 using System.Collections.Generic;

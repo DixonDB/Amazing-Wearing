@@ -9,17 +9,17 @@ namespace Amazing.VistaModelo
 {
     public class VMProductos: VMBase
     {
-        RepoProductosFirebase repoFB;
+        RepoProductosFirebase repoFB = new RepoProductosFirebase();
         public VMProductos()
         {
 
         }
-        private ObservableCollection<MProductos> mProductos;
-        public ObservableCollection<MProductos> Productos 
+        private ObservableCollection<MProductos> Productos;
+        public ObservableCollection<MProductos> productos 
         { 
-            get { return mProductos; }
+            get { return Productos; }
             set {
-                this.mProductos = value;
+                this.Productos = value;
                 OnPropertyChanged("Productos");
                  }
         }    

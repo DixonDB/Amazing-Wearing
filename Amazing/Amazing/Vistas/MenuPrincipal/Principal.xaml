@@ -13,7 +13,7 @@
                                  Orientation="Vertical"/>
             </CollectionView.ItemsLayout>
             <CollectionView.ItemTemplate>
-                <DataTemplate>
+                <DataTemplate x:Name="Listaproductos">
                     <vistas:Cuerpo />
                 </DataTemplate>
             </CollectionView.ItemTemplate>

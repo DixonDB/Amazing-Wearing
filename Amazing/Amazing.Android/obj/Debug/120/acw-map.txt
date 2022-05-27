@@ -1,6 +1,12 @@
 Amazing.Droid.MainActivity, Amazing.Android;crc64ec8e7f5fc0b4ac22.MainActivity
 Amazing.Droid.MainActivity;crc64ec8e7f5fc0b4ac22.MainActivity
 amazing.droid.MainActivity;crc64ec8e7f5fc0b4ac22.MainActivity
+Sharpnado.Shades.Droid.AndroidShadowsRenderer, Sharpnado.Shadows.Android;crc64994682affb61faca.AndroidShadowsRenderer
+Sharpnado.Shades.Droid.AndroidShadowsRenderer;crc64994682affb61faca.AndroidShadowsRenderer
+sharpnado.shades.droid.AndroidShadowsRenderer;crc64994682affb61faca.AndroidShadowsRenderer
+Sharpnado.Shades.Droid.ShadowView, Sharpnado.Shadows.Android;crc64994682affb61faca.ShadowView
+Sharpnado.Shades.Droid.ShadowView;crc64994682affb61faca.ShadowView
+sharpnado.shades.droid.ShadowView;crc64994682affb61faca.ShadowView
 AndroidX.Activity.IOnBackPressedDispatcherOwner, Xamarin.AndroidX.Activity;androidx.activity.OnBackPressedDispatcherOwner
 AndroidX.Activity.IOnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner
 androidx.activity.OnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner
