@@ -1,10 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Amazing.Vistas.MenuPrincipal.PiePagina">
-  <ContentView.Content>
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
-  </ContentView.Content>
+             x:Class="Amazing.Vistas.MenuPrincipal.PiePagina"
+             xmlns:sombras="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows">
+    
+    <Grid HeightRequest="80" BackgroundColor="White">
+        <sombras:Shadows CornerRadius="50" Shades="{sombras:SingleShade
+                Offset='0,10', Opacity=0.55, Color=#FD88A3, BlurRadius=20}">
+             <Frame HorizontalOptions="Center"
+               HeightRequest="35"
+               WidthRequest="35"
+               VerticalOptions="Center"
+               CornerRadius="50"
+               TranslationY="-40">
+            <Frame.Background>
+                <LinearGradientBrush StartPoint="1,0">
+                    <GradientStop Color="#B5A2FE" Offset="0.5"/>
+                    <GradientStop Color="#8A67FF" Offset="1.0"/>
+                </LinearGradientBrush>
+            </Frame.Background>
+            <Image Source="https://i.ibb.co/Mp3gQM0/bolsa-de-la-compra.png"/>
+        </Frame>
+        </sombras:Shadows>
+       
+    </Grid>
 </ContentView>

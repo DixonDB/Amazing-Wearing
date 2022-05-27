@@ -6,7 +6,8 @@
              NavigationPage.HasNavigationBar="False">
      <Grid BackgroundColor="#F7F7F7">
         <CollectionView ItemsSource="{Binding Listaproductos}"
-                        x:Name="listaproductos">
+                        x:Name="listaproductos"
+                        Margin="18">
             <CollectionView.Header>
                 <vistas:Encabezado />
             </CollectionView.Header>
@@ -25,6 +26,7 @@
                     </vistas:Cuerpo>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
-        </CollectionView>        
+        </CollectionView>
+        <vistas:PiePagina VerticalOptions="End"/>
     </Grid>
 </ContentPage>
