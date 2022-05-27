@@ -2,6 +2,7 @@
 using Amazing.Modelo;
 using Amazing.RepoDB;
 using Amazing.VistaModelo;
+using Amazing.Vistas.Detalle;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -75,10 +76,15 @@ namespace Amazing.VistaModelo
                 item.TextColor = "#2F394B";
             });
         }
+        private async void SeleccionarProducto(MProductos parametros)
+        {
+            await Navigation.PushAsync(new DetalleProducto(parametros));
+        }
       
         #endregion
         #region COMANDOS
         public ICommand Seleccionarcommand => new Command<MCategorias>(Seleccionar);
+        public ICommand SeleccionarProductoCommand => new Command<MProductos>(SeleccionarProducto);
         #endregion
     }
 }

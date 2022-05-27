@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Amazing.Modelo;
+using Amazing.VistaModelo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +14,10 @@ namespace Amazing.Vistas.Detalle
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DetalleProducto : ContentPage
     {
-        public DetalleProducto()
+        public DetalleProducto(MProductos parametros) 
         {
             InitializeComponent();
+            BindingContext = new VMDetalle(Navigation, parametros);
         }
     }
 }

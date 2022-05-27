@@ -10,6 +10,9 @@
             <Frame HasShadow="False" CornerRadius="50" Padding="10">
                 <Image Source="https://i.ibb.co/swzZ73h/flecha-izquierda.png"
                            HeightRequest="25"/>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding Volvercommand}"/>
+                </Frame.GestureRecognizers>
             </Frame>
         </sombras:Shadows>
 

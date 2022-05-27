@@ -30,5 +30,6 @@
         </Frame>
         <Image Source="{Binding Imagen}"
                TranslationY="50"/>
+        
     </Grid>
 </ContentView>
