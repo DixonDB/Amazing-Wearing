@@ -4,6 +4,7 @@ using Xamarin.Forms.Xaml;
 using Amazing.Vistas.MenuPrincipal;
 using Amazing.Vistas.CRUD;
 using Amazing.Vistas.Detalle;
+using Plugin.SharedTransitions;
 
 
 namespace Amazing
@@ -16,7 +17,8 @@ namespace Amazing
 
             //MainPage = new AgregarProductos();
             //MainPage = new DetalleProducto();
-            MainPage = new NavigationPage(new Principal());
+            //MainPage = new NavigationPage(new Principal());
+            MainPage = new SharedTransitionNavigationPage(new Principal());
         }
 
         protected override void OnStart()

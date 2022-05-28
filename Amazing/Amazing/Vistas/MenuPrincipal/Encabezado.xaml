@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Amazing.Vistas.MenuPrincipal.Encabezado">
+             x:Class="Amazing.Vistas.MenuPrincipal.Encabezado"
+             xmlns:sombras="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows">
     <Grid>
         <StackLayout>
-            <StackLayout Orientation="Horizontal">
+            <StackLayout Orientation="Horizontal"
+                         Margin="0,0,0,23">
                 <Frame HasShadow="False" CornerRadius="50" Padding="10">
                     <Image Source="Menu"
                            HeightRequest="25"/>
@@ -69,8 +71,12 @@
                                 </Frame.Background>
                                 <StackLayout Orientation="Vertical">
                                     <Frame HasShadow="False" CornerRadius="50">
-                                        <Image Source="{Binding Imagen}"
-                                   HeightRequest="25"/>
+                                        <sombras:Shadows CornerRadius="50" Shades="{sombras:SingleShade
+                Offset='0,12', Opacity=1.0, Color=#F5C2BE, BlurRadius=10}">
+                                            <Image Source="{Binding Imagen}"
+                                   HeightRequest="30"/>
+                                        </sombras:Shadows>
+                                            
                                     </Frame>
                                     <Label Text="{Binding Categoria}" 
                                FontAttributes="Bold"

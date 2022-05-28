@@ -8,6 +8,7 @@ public class MonoPackageManager_Resources {
 		"FormsViewGroup.dll",
 		"LiteDB.dll",
 		"Newtonsoft.Json.dll",
+		"Plugin.SharedTransitions.dll",
 		"Sharpnado.Shadows.Android.dll",
 		"Sharpnado.Shadows.dll",
 		"SQLite-net.dll",

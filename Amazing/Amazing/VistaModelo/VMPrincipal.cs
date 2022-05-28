@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
+using Plugin.SharedTransitions;
 using Xamarin.Forms.Internals;
 
 namespace Amazing.VistaModelo
@@ -77,7 +78,11 @@ namespace Amazing.VistaModelo
             });
         }
         private async void SeleccionarProducto(MProductos parametros)
-        {
+        {           
+            var page = (App.Current.MainPage as SharedTransitionNavigationPage).CurrentPage;
+            SharedTransitionNavigationPage.SetTransitionDuration(page,500);
+            SharedTransitionNavigationPage.SetBackgroundAnimation(page, BackgroundAnimation.SlideFromLeft);
+          SharedTransitionNavigationPage.SetTransitionSelectedGroup(page, parametros.Id);
             await Navigation.PushAsync(new DetalleProducto(parametros));
         }
       

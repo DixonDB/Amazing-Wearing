@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fMwSm8pNGwXauGH2zTQPfhgGjyyaE9I7TBtbgIoVurEyIrzy0lyL0gmmCIrnC+/FE7JzweLfathuCPDiyIWfWg==",
+  "dgSpecHash": "ZFe8lrXI4wi/OD3pZK3Xbkcc8o2gwfgbj/ZGEEkrUbpVFxiq4lrh0XZ6GDWyWRi8H29cZ3BOGVaJgRmYG9s87Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\drcbl\\source\\repos\\Amazing\\Amazing\\Amazing.Android\\Amazing.Android.csproj",
   "expectedPackageFiles": [
@@ -79,7 +79,8 @@
     "C:\\Users\\drcbl\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
     "C:\\Users\\drcbl\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2401\\xamarin.forms.visual.material.5.0.0.2401.nupkg.sha512",
     "C:\\Users\\drcbl\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
-    "C:\\Users\\drcbl\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
+    "C:\\Users\\drcbl\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512",
+    "C:\\Users\\drcbl\\.nuget\\packages\\xamarin.plugin.sharedtransitions\\2.4.0\\xamarin.plugin.sharedtransitions.2.4.0.nupkg.sha512"
   ],
   "logs": []
 }

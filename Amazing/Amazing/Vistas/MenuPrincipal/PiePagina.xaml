@@ -6,7 +6,7 @@
     
     <Grid HeightRequest="80" BackgroundColor="White">
         <sombras:Shadows CornerRadius="50" Shades="{sombras:SingleShade
-                Offset='0,10', Opacity=0.55, Color=#FD88A3, BlurRadius=20}">
+                Offset='0,10', Opacity=0.6, Color=#8765ff, BlurRadius=30}">
              <Frame HorizontalOptions="Center"
                HeightRequest="35"
                WidthRequest="35"
@@ -22,6 +22,17 @@
             <Image Source="https://i.ibb.co/Mp3gQM0/bolsa-de-la-compra.png"/>
         </Frame>
         </sombras:Shadows>
-       
+        <StackLayout Orientation="Horizontal" Margin="30,0"
+                     Spacing="45">
+            <Image Source="https://i.ibb.co/LzwFDf9/casa-1.png"
+                   HeightRequest="30"/>
+            <Image Source="https://i.ibb.co/02rvcmj/pin-de-mapa.png"
+                   HeightRequest="30"/>
+            <BoxView HorizontalOptions="CenterAndExpand" BackgroundColor="Transparent"/>
+            <Image Source="https://i.ibb.co/HYS75Pr/google-docs.png"
+                   HeightRequest="30"/>
+            <Image Source="https://i.ibb.co/Sw8cZMd/configuraciones.png"
+                   HeightRequest="30"/>
+        </StackLayout>
     </Grid>
 </ContentView>

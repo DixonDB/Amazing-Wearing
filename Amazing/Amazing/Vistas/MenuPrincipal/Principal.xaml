@@ -7,9 +7,9 @@
      <Grid BackgroundColor="#F7F7F7">
         <CollectionView ItemsSource="{Binding Listaproductos}"
                         x:Name="listaproductos"
-                        Margin="18">
+                        Margin="18,18,18,100">
             <CollectionView.Header>
-                <vistas:Encabezado />
+                <vistas:Encabezado VerticalOptions="Start"/>
             </CollectionView.Header>
             <CollectionView.ItemsLayout>
                 <GridItemsLayout Span="2"

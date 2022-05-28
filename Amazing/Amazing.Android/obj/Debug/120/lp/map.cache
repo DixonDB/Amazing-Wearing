@@ -1,4 +1,5 @@
 FormsViewGroup.dll
+Plugin.SharedTransitions.dll
 Sharpnado.Shadows.Android.dll
 SQLitePCLRaw.lib.e_sqlite3.android.dll
 Xamarin.AndroidX.Activity.dll
@@ -93,7 +94,6 @@ androidx.appcompat.appcompat.aar
 androidx.constraintlayout.constraintlayout.aar
 androidx.cardview.cardview.aar
 com.google.android.material.material.aar
-androidx.lifecycle.lifecycle-livedata.aar
 androidx.swiperefreshlayout.swiperefreshlayout.aar
 androidx.slidingpanelayout.slidingpanelayout.aar
 androidx.preference.preference.aar
@@ -101,6 +101,7 @@ androidx.navigation.navigation-common.aar
 androidx.navigation.navigation-runtime.aar
 androidx.navigation.navigation-ui.aar
 androidx.media.media.aar
+androidx.lifecycle.lifecycle-livedata.aar
 androidx.asynclayoutinflater.asynclayoutinflater.aar
 androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar

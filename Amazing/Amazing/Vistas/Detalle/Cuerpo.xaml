@@ -2,7 +2,8 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Amazing.Vistas.Detalle.Cuerpo"
-              xmlns:sombras="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows">
+              xmlns:sombras="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+             xmlns:shared="clr-namespace:Plugin.SharedTransitions;assembly=Plugin.SharedTransitions">
     <StackLayout>
         <Grid TranslationY="-40">
             <sombras:Shadows CornerRadius="200" Shades="{sombras:SingleShade
@@ -20,7 +21,8 @@
                         WidthRequest="100"/>
             </sombras:Shadows>
 
-            <Image Source="{Binding ParametrosRecibe.Imagen}" HeightRequest="280" Margin="60"/>
+            <Image Source="{Binding ParametrosRecibe.Imagen}" HeightRequest="280" Margin="60"
+                   shared:Transition.Name="imgtransicion"/>
             
             <sombras:Shadows CornerRadius="50" Shades="{sombras:SingleShade
                 Offset='0,10', Opacity=0.55, Color=#FD88A3, BlurRadius=20}" TranslationY="18">

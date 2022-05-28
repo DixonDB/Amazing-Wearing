@@ -24,7 +24,7 @@ namespace Amazing.Datos
                 {
                     Nombre= "Zapatos Converse",
                     Descripcion= "Tallas 8,9,6",
-                    Precio= "C$ 670",
+                    Precio= "C$ 1575",
                     Imagen= "https://i.ibb.co/pb9HLzc/Whats-App-Image-2022-05-21-at-10-56-11-AM-modified.png"
                 },
                   new MProductos()

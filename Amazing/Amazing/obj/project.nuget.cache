@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "w/06/izCl7fMQrumm21MZuruMmN8qbMBkcJ5ky9jUq1g31SJiBGF3mi7InwRk0X0M+jSjAuGTSgPfBBY2tI0Iw==",
+  "dgSpecHash": "Nz2X+CxY+v2n3s6tsem/3RMhNzV9bt8W2yEU3OuK1dEx4rTeeRnRyXLd71oQ46Xcpw/YiPNCuh8aGGHOAxuwLw==",
   "success": true,
   "projectFilePath": "C:\\Users\\drcbl\\source\\repos\\Amazing\\Amazing\\Amazing\\Amazing.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,8 @@
     "C:\\Users\\drcbl\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\drcbl\\.nuget\\packages\\thomaslevesque.weakevent\\4.1.0\\thomaslevesque.weakevent.4.1.0.nupkg.sha512",
     "C:\\Users\\drcbl\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\drcbl\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\drcbl\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\drcbl\\.nuget\\packages\\xamarin.plugin.sharedtransitions\\2.4.0\\xamarin.plugin.sharedtransitions.2.4.0.nupkg.sha512"
   ],
   "logs": []
 }

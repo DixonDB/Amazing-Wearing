@@ -7,6 +7,11 @@ namespace Amazing.Modelo
 {
     public class MProductos
     {
+        public MProductos()
+        {
+            Id = Guid.NewGuid().ToString();
+        }
+        public string Id { get; set; }
         [PrimaryKey, AutoIncrement]
         public int IdProducto { get; set; }
         public string Nombre { get; set; }

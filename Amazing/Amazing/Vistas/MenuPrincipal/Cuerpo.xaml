@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Amazing.Vistas.MenuPrincipal.Cuerpo">
+             x:Class="Amazing.Vistas.MenuPrincipal.Cuerpo"
+             xmlns:shared="clr-namespace:Plugin.SharedTransitions;assembly=Plugin.SharedTransitions">
     
     <Grid RowDefinitions="150, *"
           Padding="10">
@@ -29,7 +30,9 @@
             </StackLayout>
         </Frame>
         <Image Source="{Binding Imagen}"
-               TranslationY="50"/>
+               TranslationY="50"
+               shared:Transition.Name="imgtransicion"
+               shared:Transition.Group="{Binding Id}"/>
         
     </Grid>
 </ContentView>
