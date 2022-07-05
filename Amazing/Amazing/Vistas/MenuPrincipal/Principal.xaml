@@ -4,16 +4,16 @@
              x:Class="Amazing.Vistas.MenuPrincipal.Principal"
              xmlns:vistas="clr-namespace:Amazing.Vistas.MenuPrincipal"
              NavigationPage.HasNavigationBar="False">
-     <Grid BackgroundColor="#F7F7F7">
+    <Grid BackgroundColor="#F7F7F7">
         <CollectionView ItemsSource="{Binding Listaproductos}"
                         x:Name="listaproductos"
                         Margin="18,18,18,100">
             <CollectionView.Header>
-                <vistas:Encabezado VerticalOptions="Start"/>
+                <vistas:Encabezado VerticalOptions="Start" />
             </CollectionView.Header>
             <CollectionView.ItemsLayout>
                 <GridItemsLayout Span="2"
-                                 Orientation="Vertical"/>
+                                 Orientation="Vertical" />
             </CollectionView.ItemsLayout>
             <CollectionView.ItemTemplate>
                 <DataTemplate>
@@ -21,12 +21,12 @@
                         <vistas:Cuerpo.GestureRecognizers>
                             <TapGestureRecognizer Command="{Binding Path=BindingContext.SeleccionarProductoCommand,
                 Source={x:Reference listaproductos}}"
-   CommandParameter="{Binding .}"/>
+                                                  CommandParameter="{Binding .}" />
                         </vistas:Cuerpo.GestureRecognizers>
                     </vistas:Cuerpo>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-        <vistas:PiePagina VerticalOptions="End"/>
+        <vistas:PiePagina VerticalOptions="End" />
     </Grid>
 </ContentPage>

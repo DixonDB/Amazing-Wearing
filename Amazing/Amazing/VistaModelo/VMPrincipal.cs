@@ -13,6 +13,7 @@ using System.Windows.Input;
 using Xamarin.Forms;
 using Plugin.SharedTransitions;
 using Xamarin.Forms.Internals;
+using Amazing.Vistas.CRUD;
 
 namespace Amazing.VistaModelo
 {
@@ -43,11 +44,12 @@ namespace Amazing.VistaModelo
         }
         #endregion
         #region PROCESOS
-        public void ListarProductos()
+        public async void ListarProductos()
         {
             var funcion = new DProductos();
-            Listaproductos = funcion.ListarProductos();
+            Listaproductos = await funcion.ListarProductos();
         }
+       
         public void ListarCategorias()
         {
             var funcion = new DCategorias();
@@ -80,7 +82,7 @@ namespace Amazing.VistaModelo
         private async void SeleccionarProducto(MProductos parametros)
         {           
             var page = (App.Current.MainPage as SharedTransitionNavigationPage).CurrentPage;
-            SharedTransitionNavigationPage.SetTransitionDuration(page,500);
+            SharedTransitionNavigationPage.SetTransitionDuration(page,200);
             SharedTransitionNavigationPage.SetBackgroundAnimation(page, BackgroundAnimation.SlideFromLeft);
           SharedTransitionNavigationPage.SetTransitionSelectedGroup(page, parametros.Id);
             await Navigation.PushAsync(new DetalleProducto(parametros));
@@ -90,6 +92,7 @@ namespace Amazing.VistaModelo
         #region COMANDOS
         public ICommand Seleccionarcommand => new Command<MCategorias>(Seleccionar);
         public ICommand SeleccionarProductoCommand => new Command<MProductos>(SeleccionarProducto);
+       
         #endregion
     }
 }

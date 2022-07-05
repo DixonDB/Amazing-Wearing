@@ -5,6 +5,8 @@ using Amazing.Modelo;
 using Amazing.RepoDB;
 using System.Collections.ObjectModel;
 using Xamarin.Forms;
+using Plugin.SharedTransitions;
+using Amazing.Vistas.MenuPrincipal;
 
 namespace Amazing.VistaModelo
 {
@@ -34,31 +36,24 @@ namespace Amazing.VistaModelo
                 {
                     await repoFB.InsertarProductos(Producto.Nombre, Producto.Descripcion, Producto.Precio, Producto.Imagen);
                     await Application.Current.MainPage.DisplayAlert("OK", "Se insertaron los datos correctamente", "Aceptar");
+                    
                 });
             }
+           
         }
-        public Command ActualizarProducto
-        {
-            get
-            {
-                return new Command(async () =>
-                {
-                    await this.repoFB.ActualizarProductos(this.Producto.IdProducto, this.Producto.Nombre,
-                        this.Producto.Descripcion, this.Producto.Precio, this.Producto.Imagen);
-                    await Application.Current.MainPage.DisplayAlert("OK","Se actualizaron correctamente los datos","Aceptar");
-                });
-            }
-        }
-        public Command EliminarProducto
-        {
-            get
-            {
-                return new Command(async () =>
-                {
-                    await this.repoFB.EliminarProductos(this.Producto.IdProducto);
-                    await Application.Current.MainPage.DisplayAlert("OK","Se elimino el producto con exito","Aceptar");
-                });
-            }
-        }
+      
+        //public Command ActualizarProducto
+        //{
+        //    get
+        //    {
+        //        return new Command(async () =>
+        //        {
+        //            await this.repoFB.ActualizarProductos(this.Producto.IdProducto, this.Producto.Nombre,
+        //                this.Producto.Descripcion, this.Producto.Precio, this.Producto.Imagen);
+        //            await Application.Current.MainPage.DisplayAlert("OK","Se actualizaron correctamente los datos","Aceptar");
+        //        });
+        //    }
+        //}
+      
     }
 }

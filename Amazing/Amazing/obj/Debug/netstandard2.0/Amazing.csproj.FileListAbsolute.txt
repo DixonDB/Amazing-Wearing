@@ -21,3 +21,30 @@ C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vis
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\Detalle\DetalleProducto.xaml.g.cs
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\Detalle\Encabezado.xaml.g.cs
 C:\Users\drcbl\source\repos\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\Detalle\PiePagina.xaml.g.cs
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\bin\Debug\netstandard2.0\Amazing.deps.json
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\bin\Debug\netstandard2.0\Amazing.dll
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\bin\Debug\netstandard2.0\Amazing.pdb
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Amazing.csproj.AssemblyReference.cache
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Amazing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\CRUD\AgregarProductos.xaml.g.cs
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\Detalle\Cuerpo.xaml.g.cs
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\Detalle\DetalleProducto.xaml.g.cs
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\Detalle\Encabezado.xaml.g.cs
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\Detalle\PiePagina.xaml.g.cs
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\MenuPrincipal\Cuerpo.xaml.g.cs
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\MenuPrincipal\Encabezado.xaml.g.cs
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\MenuPrincipal\PiePagina.xaml.g.cs
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\MenuPrincipal\Principal.xaml.g.cs
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Amazing.AssemblyInfoInputs.cache
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Amazing.AssemblyInfo.cs
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Amazing.csproj.CoreCompileInputs.cache
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Amazing.dll
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\refint\Amazing.dll
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Amazing.pdb
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\ref\Amazing.dll
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\Inicio\Login.xaml.g.cs
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\Inicio\Registro.xaml.g.cs
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\CRUD\EditarProductos.xaml.g.cs
+C:\Users\DixonDB\Documents\Xamarin Forms\Amazing\Amazing\Amazing\obj\Debug\netstandard2.0\Vistas\Inicio\Perfil.xaml.g.cs

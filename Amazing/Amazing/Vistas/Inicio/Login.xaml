@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Amazing.Vistas.Inicio"
+             x:Class="Amazing.Vistas.Inicio.Login">
+    <StackLayout Padding="0"
+                 BackgroundColor="LightGray">
+        <Grid>
+            <StackLayout Padding="0"
+                         Margin="0">
+                <Frame BackgroundColor="Pink"
+                       HeightRequest="250"
+                       Padding="0"
+                       HorizontalOptions="FillAndExpand">
+                    <Image Source="https://images.pexels.com/photos/994523/pexels-photo-994523.jpeg"
+                           Aspect="Fill"
+                           Margin="0" />
+                </Frame>
+            </StackLayout>
+            <StackLayout Margin="15,150,15,0">
+                <Frame BackgroundColor="White"
+                       HasShadow="True"
+                       HeightRequest="530"
+                       CornerRadius="40"
+                       HorizontalOptions="FillAndExpand">
+                    <StackLayout>
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <Label Text="Iniciar Sesion"                                
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   FontSize="25" />
+                        </StackLayout>
+                        <StackLayout Margin="0,30,0,0">
+                            <Frame BackgroundColor="Transparent"
+                                   BorderColor="DarkGray"
+                                   Padding="0"
+                                   Margin="0"
+                                   CornerRadius="50"
+                                   HorizontalOptions="FillAndExpand">
+                                <StackLayout Orientation="Horizontal">
+                                    <Frame BackgroundColor="AliceBlue"
+                                           CornerRadius="50"
+                                           HeightRequest="25"
+                                           Padding="0"
+                                           Margin="15"
+                                           WidthRequest="25">
+                                        <Image Source="email" />
+                                    </Frame>
+                                    <local:MyCustomeEntry Placeholder="Email"
+                                                          TextColor="HotPink"
+                                                          PlaceholderColor="DarkGray"
+                                                          x:Name="txtEmail"
+                                                          HorizontalOptions="FillAndExpand"
+                                                          Keyboard="Email" />
+                                </StackLayout>
+                            </Frame>
+                            <Frame BackgroundColor="Transparent"
+                                   BorderColor="DarkGray"
+                                   Padding="0"
+                                   Margin="0,25,0,0"
+                                   CornerRadius="50"
+                                   HorizontalOptions="FillAndExpand">
+                                <StackLayout Orientation="Horizontal">
+                                    <Frame BackgroundColor="AliceBlue"
+                                           CornerRadius="50"
+                                           HeightRequest="25"
+                                           Padding="0"
+                                           Margin="15"
+                                           WidthRequest="25">
+                                        <Image Source="lock" />
+                                    </Frame>
+                                    <local:MyCustomeEntry Placeholder="Password"
+                                                          x:Name="txtPassword"
+                                                          IsPassword="True" PlaceholderColor="DarkGray"
+                                                          TextColor="HotPink"
+                                                          HorizontalOptions="FillAndExpand" />
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                        <StackLayout Margin="5,10,0,0"
+                                     Orientation="Horizontal">
+                            <CheckBox IsChecked="False"
+                                      Color="DarkGray"  />
+                            <Label Text="Recuerdame"
+                                   TextColor="DarkGray"
+                                   HorizontalTextAlignment="Center"
+                                   VerticalTextAlignment="Center" />
+                            <Label Text="Recuperar Contraseña"
+                                   TextColor="HotPink"
+                                   HorizontalOptions="FillAndExpand"
+                                   FontAttributes="Bold"                                   
+                                   HorizontalTextAlignment="End"
+                                   VerticalTextAlignment="Center" />
+                        </StackLayout>
+                        <Button Text="Continuar"
+                                Margin="0,15,0,0"
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                CornerRadius="22"
+                                BackgroundColor="Purple" x:Name="btnIniciar" Clicked="btnIniciar_Clicked"/>
+                        <StackLayout HorizontalOptions="Center"
+                                     Margin="0,10,0,0"
+                                     Orientation="Horizontal">
+                            <Label Text="No estas registrado ?"
+                                   HorizontalTextAlignment="Center"
+                                   TextColor="DarkGray"
+                                   VerticalTextAlignment="Center" />
+                            <Label Text="Registrarse"
+                                   TextColor="HotPink"
+                                   HorizontalOptions="FillAndExpand"
+                                   FontAttributes="Bold"
+                                   HorizontalTextAlignment="Center">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer x:Name="Registro"
+                                                          Tapped="Registro_Tapped" />
+                                </Label.GestureRecognizers>
+                            </Label>
+                        </StackLayout>
+                        <StackLayout>
+                            <Grid>
+                                <BoxView BackgroundColor="DarkGray"
+                                         HeightRequest="3"
+                                         WidthRequest="310"
+                                         HorizontalOptions="Center"
+                                         VerticalOptions="Center" />
+                                <Frame BackgroundColor="White"
+                                       HeightRequest="50"
+                                       WidthRequest="75"
+                                       CornerRadius="45"
+                                       HasShadow="False"
+                                       BorderColor="DarkGray"
+                                       Margin="0"
+                                       HorizontalOptions="Center"
+                                       Padding="0">
+                                    <Label Text="Iniciar con"
+                                           TextColor="DarkGray"
+                                           FontSize="Small"
+                                           VerticalTextAlignment="Center"
+                                           HorizontalTextAlignment="Center" />
+                                </Frame>
+                            </Grid>
+                        </StackLayout>
+                        <StackLayout Margin="0,25"
+                                     Orientation="Horizontal"
+                                     HorizontalOptions="CenterAndExpand">
+                            <Frame BackgroundColor="White"
+                                   HeightRequest="45"
+                                   WidthRequest="45"
+                                   CornerRadius="45"
+                                   HasShadow="False"
+                                   BorderColor="DarkGray"
+                                   Margin="0"
+                                   HorizontalOptions="Center"
+                                   Padding="0">
+                                <Image Source="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                                       Aspect="AspectFill"
+                                       Margin="0" />
+                            </Frame>
+                            <Frame BackgroundColor="White"
+                                   HeightRequest="45"
+                                   WidthRequest="45"
+                                   CornerRadius="45"
+                                   HasShadow="False"
+                                   BorderColor="DarkGray"
+                                   Margin="9,0,0,0"
+                                   HorizontalOptions="Center"
+                                   Padding="0">
+                                <Image Source="https://cdn-icons-png.flaticon.com/512/2702/2702602.png"
+                                       Aspect="AspectFill"
+                                       Margin="0" />
+                            </Frame>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+</ContentPage>

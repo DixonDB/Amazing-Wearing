@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\drcbl\\source\\repos\\Amazing\\Amazing\\Amazing\\Amazing.csproj": {}
+    "C:\\Users\\DixonDB\\Documents\\Xamarin Forms\\Amazing\\Amazing\\Amazing\\Amazing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\drcbl\\source\\repos\\Amazing\\Amazing\\Amazing\\Amazing.csproj": {
+    "C:\\Users\\DixonDB\\Documents\\Xamarin Forms\\Amazing\\Amazing\\Amazing\\Amazing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drcbl\\source\\repos\\Amazing\\Amazing\\Amazing\\Amazing.csproj",
+        "projectUniqueName": "C:\\Users\\DixonDB\\Documents\\Xamarin Forms\\Amazing\\Amazing\\Amazing\\Amazing.csproj",
         "projectName": "Amazing",
-        "projectPath": "C:\\Users\\drcbl\\source\\repos\\Amazing\\Amazing\\Amazing\\Amazing.csproj",
-        "packagesPath": "C:\\Users\\drcbl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drcbl\\source\\repos\\Amazing\\Amazing\\Amazing\\obj\\",
+        "projectPath": "C:\\Users\\DixonDB\\Documents\\Xamarin Forms\\Amazing\\Amazing\\Amazing\\Amazing.csproj",
+        "packagesPath": "C:\\Users\\DixonDB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DixonDB\\Documents\\Xamarin Forms\\Amazing\\Amazing\\Amazing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\drcbl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DixonDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

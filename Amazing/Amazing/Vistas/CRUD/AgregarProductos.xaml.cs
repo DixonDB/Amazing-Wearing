@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Amazing.Vistas.MenuPrincipal;
+using Plugin.SharedTransitions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,9 +19,10 @@ namespace Amazing.Vistas.CRUD
             InitializeComponent();
         }
 
-        private void btnCargarImagen_Clicked(object sender, EventArgs e)
-        {
 
+        private void btnAgregar_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SharedTransitionNavigationPage(new Principal()));
         }
     }
 }

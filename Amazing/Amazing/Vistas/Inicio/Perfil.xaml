@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Amazing.Vistas.Inicio"
+             x:Class="Amazing.Vistas.Inicio.Perfil"
+             BackgroundColor="White"
+             xmlns:vistas="clr-namespace:Amazing.Vistas.MenuPrincipal">
+
+        <Grid BackgroundColor="DarkGray">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <StackLayout>
+            <Frame Grid.Row="0"
+                   Padding="10" CornerRadius="20"
+                   Margin="10"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="CenterAndExpand">
+                <StackLayout>
+                    <StackLayout VerticalOptions="CenterAndExpand"
+                                 HorizontalOptions="CenterAndExpand"
+                                 Margin="5">
+                        <Label Font="20"
+                               Margin="0,15,0,15"
+                               FontAttributes="Bold"
+                               FontSize="30"
+                               TextColor="#860000">Editar Perfil</Label>
+                    </StackLayout>
+                    <Frame BackgroundColor="Transparent"
+                           CornerRadius="50"
+                           Padding="10"
+                           BorderColor="DarkGray">
+                        <local:MyCustomeEntry x:Name="txtEmail"
+                                              Placeholder="Email"
+                                              TextColor="Black"
+                                              PlaceholderColor="DarkGray"
+                                              Text=""
+                                              IsEnabled="False" />
+                    </Frame>
+                    <Frame BackgroundColor="Transparent"
+                           CornerRadius="50"
+                           Padding="10"
+                           BorderColor="DarkGray">
+                        <local:MyCustomeEntry x:Name="txtNombre"
+                                              Placeholder="Nombres"
+                                              TextColor="Black"
+                                              Margin="15,0,0,0"
+                                              PlaceholderColor="DarkGray"
+                                              Text="" />
+                    </Frame>
+                    <Frame BackgroundColor="Transparent"
+                           CornerRadius="50"
+                           Padding="10"
+                           BorderColor="DarkGray">
+                        <local:MyCustomeEntry x:Name="txtApellido"
+                                              Placeholder="Apellidos"
+                                              TextColor="Black"
+                                              Margin="15,0,0,0"
+                                              PlaceholderColor="DarkGray"
+                                              Text="" />
+                    </Frame>
+                    <Frame BackgroundColor="Transparent"
+                           CornerRadius="50"
+                           Padding="10"
+                           BorderColor="DarkGray">
+                        <local:MyCustomeEntry x:Name="txtCelular"
+                                              Placeholder="Numero de celular"
+                                              TextColor="Black"
+                                              Keyboard="Numeric"
+                                              Margin="15,0,0,0"
+                                              PlaceholderColor="DarkGray"
+                                              Text="" />
+                    </Frame>
+                    <Button x:Name="btnGuardarCambios"
+                            CornerRadius="30"
+                            Text="Guardar Cambios"
+                            BackgroundColor="#1964BE"
+                            Padding="20"
+                            TextColor="White"
+                            Clicked="btnGuardarCambios_Clicked"
+                            Margin="0,10,0,20" />
+                    <Button x:Name="btnCerrarSesion"
+                            Text="Cerrar Sesión"
+                            CornerRadius="30"
+                            Padding="20"
+                            BackgroundColor="#860000"
+                            TextColor="White"
+                            Clicked="btnCerrarSesion_Clicked" />
+                </StackLayout>
+            </Frame> 
+                <vistas:PiePagina  HorizontalOptions="Center"/>
+            </StackLayout>
+           
+        </Grid>
+
+</ContentPage>

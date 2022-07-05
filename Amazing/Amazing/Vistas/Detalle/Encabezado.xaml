@@ -23,7 +23,7 @@
                          Shades="{sombras:SingleShade Offset='0,15', Opacity=1.0, Color=#EEEBFC, BlurRadius=15}">
             <Frame HasShadow="False" CornerRadius="50"
                        Padding="10">
-                <Image Source="https://i.ibb.co/HXgqpTm/compartir-2.png" HeightRequest="25"/>
+                <Image Source="share" HeightRequest="25"/>
             </Frame>
         </sombras:Shadows>
 

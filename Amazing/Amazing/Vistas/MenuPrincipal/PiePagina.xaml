@@ -1,38 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Amazing.Vistas.MenuPrincipal.PiePagina"
-             xmlns:sombras="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows">
-    
-    <Grid HeightRequest="80" BackgroundColor="White">
-        <sombras:Shadows CornerRadius="50" Shades="{sombras:SingleShade
-                Offset='0,10', Opacity=0.6, Color=#8765ff, BlurRadius=30}">
-             <Frame HorizontalOptions="Center"
-               HeightRequest="35"
-               WidthRequest="35"
-               VerticalOptions="Center"
-               CornerRadius="50"
-               TranslationY="-40">
-            <Frame.Background>
-                <LinearGradientBrush StartPoint="1,0">
-                    <GradientStop Color="#B5A2FE" Offset="0.5"/>
-                    <GradientStop Color="#8A67FF" Offset="1.0"/>
-                </LinearGradientBrush>
-            </Frame.Background>
-            <Image Source="https://i.ibb.co/Mp3gQM0/bolsa-de-la-compra.png"/>
-        </Frame>
-        </sombras:Shadows>
-        <StackLayout Orientation="Horizontal" Margin="30,0"
-                     Spacing="45">
-            <Image Source="https://i.ibb.co/LzwFDf9/casa-1.png"
-                   HeightRequest="30"/>
-            <Image Source="https://i.ibb.co/02rvcmj/pin-de-mapa.png"
-                   HeightRequest="30"/>
-            <BoxView HorizontalOptions="CenterAndExpand" BackgroundColor="Transparent"/>
-            <Image Source="https://i.ibb.co/HYS75Pr/google-docs.png"
-                   HeightRequest="30"/>
-            <Image Source="https://i.ibb.co/Sw8cZMd/configuraciones.png"
-                   HeightRequest="30"/>
+             x:Class="Amazing.Vistas.MenuPrincipal.PiePagina">
+    <Grid HeightRequest="80"
+          BackgroundColor="Transparent">
+     
+        <StackLayout HorizontalOptions="Center" Orientation="Horizontal"
+                     Margin="30,0"
+                     Spacing="35">
+            <Image Source="hogar"
+                   HeightRequest="30">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="IrInicio"
+                                          Tapped="IrInicio_Tapped" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="https://i.ibb.co/brb7qT5/carrito-de-compras.png"
+                   HeightRequest="30" />
+            
+            <Image Source="mas"
+                   HeightRequest="50"
+                   VerticalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="Agregar"
+                                          Tapped="Agregar_Tapped" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="curriculum"
+                   HeightRequest="30">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="Perfil"
+                                          Tapped="Perfil_Tapped" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="settings"
+                   HeightRequest="30" />
         </StackLayout>
     </Grid>
 </ContentView>

@@ -6,6 +6,10 @@ using System.Windows.Input;
 using Xamarin.Forms;
 using Amazing.VistaModelo;
 using Amazing.Modelo;
+using Amazing.RepoDB;
+using Amazing.Datos;
+using Plugin.SharedTransitions;
+using Amazing.Vistas.MenuPrincipal;
 
 namespace Amazing.VistaModelo
 {
@@ -21,6 +25,30 @@ namespace Amazing.VistaModelo
             Navigation = navigation;
             ParametrosRecibe = parametrostrae;
         }
+        public async Task EliminarPublicacion(MProductos parametros)
+        {
+            bool quiresEliminar = await DisplayAlert("Eliminar publicacion", $"¿Quieres eliminar la publicacion {parametros.Nombre}?", "Si", "No");
+
+            if (quiresEliminar)
+            {
+                var firebase = new RepoProductosFirebase();
+
+                string id = parametros.IdProducto;
+
+                bool resultado = await firebase.EliminarProducto(id);
+
+                if (resultado)
+                {
+                    await DisplayAlert("Exito", $"El producto {parametros.Nombre} a sido eliminada", "ok");
+                    Navigation.PopAsync();
+                }
+                else
+                {
+                    await DisplayAlert("Error", $"Intente eliminar la publicacion {parametros.Nombre} mas tarde", "ok");
+                }
+            }
+        }
+
         #endregion
         #region OBJETOS
         public string Texto
@@ -40,7 +68,8 @@ namespace Amazing.VistaModelo
         }
         #endregion
         #region COMANDOS
-        public ICommand Volvercommand => new Command(Volver);
+        public ICommand Volvercommand => new Command(Volver); 
+        public Command EliminarProductocommand { get; }
         public ICommand ProcesoSimpcommand => new Command(ProcesoSimple);
         #endregion
     }

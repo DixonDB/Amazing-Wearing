@@ -81,9 +81,7 @@ namespace Amazing.VistaModelo
             if (EqualityComparer<T>.Default.Equals(backingFieled, value))
 
             {
-
                 return;
-
             }
 
             backingFieled = value;
